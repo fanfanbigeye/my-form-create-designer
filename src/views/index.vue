@@ -6,8 +6,9 @@
                 <el-button size="mini" icon="fc-icon icon-import" @click="setJson"> 导入JSON</el-button>
                 <el-button size="mini" icon="fc-icon icon-import" @click="setOption"> 导入Options</el-button>
                 <el-button size="mini" type="primary" @click="showJson">生成JSON</el-button>
-                <el-button size="mini" type="success" @click="showOption">生成Options</el-button>
-                <el-button size="mini" type="danger" @click="showTemplate">生成组件</el-button>
+                <el-button size="mini" type="primary" @click="showOption">生成Options</el-button>
+                <el-button size="mini" type="success" @click="saveConfig">保存配置</el-button>
+                <el-button size="mini" type="danger" @click="cancel">取消</el-button>
             </div>
         </div>
         <fc-designer ref="designer"/>
@@ -122,6 +123,14 @@ export default {
             this.state = true;
             this.type = 1;
             this.value = this.$refs.designer.getOption();
+        },
+        // 保存配置
+        saveConfig(){
+
+        },
+        // 取消
+        cancel(){
+
         },
         showTemplate() {
             this.state = true;
