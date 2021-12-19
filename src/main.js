@@ -9,6 +9,8 @@ import formCreate from "@form-create/element-ui";
 import FcDesigner from '../fcDesigner/index'
 Vue.component('FcDesigner', FcDesigner)
 
+import './css/element-variables.scss';
+
 
 Vue.use(ELEMENT);
 Vue.use(formCreate);

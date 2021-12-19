@@ -54,7 +54,7 @@ export default {
   min-height: 20px;
   box-sizing: border-box;
   padding: 2px;
-  outline: 1px dashed #2E73FF;
+  outline: 1px dashed #fc9153;
   overflow: hidden;
   word-wrap: break-word;
   word-break: break-all;
@@ -69,7 +69,7 @@ export default {
 }
 
 .drag-tool.active {
-  outline: 2px solid #2E73FF;
+  outline: 2px solid #fc9153;
 }
 
 .drag-tool.active > div > .drag-btn {
@@ -99,7 +99,7 @@ export default {
   height: 18px;
   width: 18px;
   color: #fff;
-  background-color: #2E73FF;
+  background-color: #fc9153;
   text-align: center;
   line-height: 20px;
   padding-bottom: 1px;
