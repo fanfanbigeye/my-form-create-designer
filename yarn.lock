@@ -882,10 +882,18 @@
     "@babel/types" "^7.4.4"
     esutils "^2.0.2"
 
-"@babel/runtime@^7.11.0", "@babel/runtime@^7.8.4":
+"@babel/runtime-corejs3@^7.11.2":
   version "7.16.5"
-  resolved "https://registry.npmmirror.com/@babel/runtime/download/@babel/runtime-7.16.5.tgz#7f3e34bf8bdbbadf03fbb7b1ea0d929569c9487a"
-  integrity sha512-TXWihFIS3Pyv5hzR7j6ihmeLkZfrXGxAr5UfSl8CHf+6q/wpiYDkUau0czckpYG8QmnCIuPpdLtuA9VmuGGyMA==
+  resolved "http://registry.npm.xiaojukeji.com/@babel/runtime-corejs3/download/@babel/runtime-corejs3-7.16.5.tgz#9057d879720c136193f0440bc400088212a74894"
+  integrity sha1-kFfYeXIME2GT8EQLxAAIghKnSJQ=
+  dependencies:
+    core-js-pure "^3.19.0"
+    regenerator-runtime "^0.13.4"
+
+"@babel/runtime@^7.11.0", "@babel/runtime@^7.11.2", "@babel/runtime@^7.8.4":
+  version "7.16.5"
+  resolved "http://registry.npm.xiaojukeji.com/@babel/runtime/download/@babel/runtime-7.16.5.tgz#7f3e34bf8bdbbadf03fbb7b1ea0d929569c9487a"
+  integrity sha1-fz40v4vbut8D+7ex6g2SlWnJSHo=
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -921,6 +929,95 @@
   dependencies:
     "@babel/helper-validator-identifier" "^7.15.7"
     to-fast-properties "^2.0.0"
+
+"@form-create/component-elm-checkbox@^2.5.13":
+  version "2.5.13"
+  resolved "http://registry.npm.xiaojukeji.com/@form-create/component-elm-checkbox/download/@form-create/component-elm-checkbox-2.5.13.tgz#431a910cdf4ef298526efc4192617738d38a3883"
+  integrity sha1-QxqRDN9O8phSbvxBkmF3ONOKOIM=
+  dependencies:
+    "@form-create/utils" "^2.5.11"
+
+"@form-create/component-elm-frame@^2.5.11":
+  version "2.5.11"
+  resolved "http://registry.npm.xiaojukeji.com/@form-create/component-elm-frame/download/@form-create/component-elm-frame-2.5.11.tgz#4170d078fc0fe93b37929b8ff6171e298603adb9"
+  integrity sha1-QXDQePwP6Ts3kpuP9hceKYYDrbk=
+  dependencies:
+    "@form-create/utils" "^2.5.11"
+
+"@form-create/component-elm-group@^2.5.12":
+  version "2.5.12"
+  resolved "http://registry.npm.xiaojukeji.com/@form-create/component-elm-group/download/@form-create/component-elm-group-2.5.12.tgz#8bbc7a5fb5e863043e4699a5eec7bf02922717a6"
+  integrity sha1-i7x6X7XoYwQ+Rpml7se/ApInF6Y=
+  dependencies:
+    "@form-create/utils" "^2.5.11"
+
+"@form-create/component-elm-radio@^2.5.13":
+  version "2.5.13"
+  resolved "http://registry.npm.xiaojukeji.com/@form-create/component-elm-radio/download/@form-create/component-elm-radio-2.5.13.tgz#2d08385c7bb7247cb838a64a8b7e729293ee1e47"
+  integrity sha1-LQg4XHu3JHy4OKZKi35ykpPuHkc=
+  dependencies:
+    "@form-create/utils" "^2.5.11"
+
+"@form-create/component-elm-select@^2.5.12":
+  version "2.5.12"
+  resolved "http://registry.npm.xiaojukeji.com/@form-create/component-elm-select/download/@form-create/component-elm-select-2.5.12.tgz#3ff7cd83db36d8f73fb05aaf2fdca9defd736195"
+  integrity sha1-P/fNg9s22Pc/sFqvL9yp3v1zYZU=
+  dependencies:
+    "@form-create/utils" "^2.5.11"
+
+"@form-create/component-elm-tree@^2.5.11":
+  version "2.5.11"
+  resolved "http://registry.npm.xiaojukeji.com/@form-create/component-elm-tree/download/@form-create/component-elm-tree-2.5.11.tgz#446d18175509da2b44d80fc8c9fc28b76d02f97e"
+  integrity sha1-RG0YF1UJ2itE2A/Iyfwot20C+X4=
+  dependencies:
+    "@form-create/utils" "^2.5.11"
+
+"@form-create/component-elm-upload@^2.5.11":
+  version "2.5.11"
+  resolved "http://registry.npm.xiaojukeji.com/@form-create/component-elm-upload/download/@form-create/component-elm-upload-2.5.11.tgz#1facef4902ae6b21eda2fd43d8d2f2e64cd8f247"
+  integrity sha1-H6zvSQKuayHtov1D2NLy5kzY8kc=
+  dependencies:
+    "@form-create/utils" "^2.5.11"
+
+"@form-create/component-subform@^2.5.12":
+  version "2.5.12"
+  resolved "http://registry.npm.xiaojukeji.com/@form-create/component-subform/download/@form-create/component-subform-2.5.12.tgz#47486aca8b9c95dc23ee197ad156fbe5d6eed0bc"
+  integrity sha1-R0hqyoucldwj7hl60Vb75dbu0Lw=
+
+"@form-create/component-wangeditor@^2.5.2":
+  version "2.5.13"
+  resolved "http://registry.npm.xiaojukeji.com/@form-create/component-wangeditor/download/@form-create/component-wangeditor-2.5.13.tgz#427d22e85239ae25e9e380d3de3a5dfd9c00687d"
+  integrity sha1-Qn0i6FI5riXp44DT3jpd/ZwAaH0=
+  dependencies:
+    wangeditor "^4.6.0"
+
+"@form-create/core@^2.5.13":
+  version "2.5.13"
+  resolved "http://registry.npm.xiaojukeji.com/@form-create/core/download/@form-create/core-2.5.13.tgz#021f86165523921e6bd08422c72395f64fc9763d"
+  integrity sha1-Ah+GFlUjkh5r0IQixyOV9k/Jdj0=
+  dependencies:
+    "@form-create/utils" "^2.5.11"
+
+"@form-create/element-ui@^2.5.9":
+  version "2.5.13"
+  resolved "http://registry.npm.xiaojukeji.com/@form-create/element-ui/download/@form-create/element-ui-2.5.13.tgz#3997a7df036a867178bb5b5084be9f7277c870a7"
+  integrity sha1-OZen3wNqhnF4u1tQhL6fcnfIcKc=
+  dependencies:
+    "@form-create/component-elm-checkbox" "^2.5.13"
+    "@form-create/component-elm-frame" "^2.5.11"
+    "@form-create/component-elm-group" "^2.5.12"
+    "@form-create/component-elm-radio" "^2.5.13"
+    "@form-create/component-elm-select" "^2.5.12"
+    "@form-create/component-elm-tree" "^2.5.11"
+    "@form-create/component-elm-upload" "^2.5.11"
+    "@form-create/component-subform" "^2.5.12"
+    "@form-create/core" "^2.5.13"
+    "@form-create/utils" "^2.5.11"
+
+"@form-create/utils@^2.5.0-alpha.4", "@form-create/utils@^2.5.11":
+  version "2.5.11"
+  resolved "http://registry.npm.xiaojukeji.com/@form-create/utils/download/@form-create/utils-2.5.11.tgz#b3cacd6096ae3d2115d9e621088fd348354db39a"
+  integrity sha1-s8rNYJauPSEV2eYhCI/TSDVNs5o=
 
 "@hapi/address@2.x.x":
   version "2.1.4"
@@ -1575,6 +1672,11 @@
   version "4.2.2"
   resolved "https://registry.nlark.com/@xtuc/long/download/@xtuc/long-4.2.2.tgz#d291c6a4e97989b5c61d9acf396ae4fe133a718d"
   integrity sha1-0pHGpOl5ibXGHZrPOWrk/hM6cY0=
+
+JSV@^4.0.2:
+  version "4.0.2"
+  resolved "http://registry.npm.xiaojukeji.com/JSV/download/JSV-4.0.2.tgz#d077f6825571f82132f9dffaed587b4029feff57"
+  integrity sha1-0Hf2glVx+CEy+d/67Vh7QCn+/1c=
 
 accepts@~1.3.4, accepts@~1.3.5, accepts@~1.3.7:
   version "1.3.7"
@@ -2498,6 +2600,11 @@ coa@^2.0.2:
     chalk "^2.4.1"
     q "^1.1.2"
 
+codemirror@^5.60.0:
+  version "5.64.0"
+  resolved "http://registry.npm.xiaojukeji.com/codemirror/download/codemirror-5.64.0.tgz#182eec65b62178e3cd1de8f9d88ab819cfe5f625"
+  integrity sha1-GC7sZbYheOPNHej52Iq4Gc/l9iU=
+
 collection-visit@^1.0.0:
   version "1.0.0"
   resolved "https://registry.nlark.com/collection-visit/download/collection-visit-1.0.0.tgz#4bc0373c164bc3291b4d368c829cf1a80a59dca0"
@@ -2706,6 +2813,11 @@ core-js-compat@^3.18.0, core-js-compat@^3.19.1, core-js-compat@^3.6.5:
   dependencies:
     browserslist "^4.19.1"
     semver "7.0.0"
+
+core-js-pure@^3.19.0:
+  version "3.20.0"
+  resolved "http://registry.npm.xiaojukeji.com/core-js-pure/download/core-js-pure-3.20.0.tgz#7253feccf8bb05b72c153ddccdbe391ddbffbe03"
+  integrity sha1-clP+zPi7BbcsFT3czb45Hdv/vgM=
 
 core-js@^3.6.5:
   version "3.20.0"
@@ -5087,6 +5199,15 @@ jsonfile@^4.0.0:
   optionalDependencies:
     graceful-fs "^4.1.6"
 
+jsonlint-mod@^1.7.6:
+  version "1.7.6"
+  resolved "http://registry.npm.xiaojukeji.com/jsonlint-mod/download/jsonlint-mod-1.7.6.tgz#6f1c4c51fdb5c2002489a0665e3e19a316743319"
+  integrity sha1-bxxMUf21wgAkiaBmXj4ZoxZ0Mxk=
+  dependencies:
+    JSV "^4.0.2"
+    chalk "^2.4.2"
+    underscore "^1.9.1"
+
 jsprim@^1.2.2:
   version "1.4.2"
   resolved "https://registry.npmmirror.com/jsprim/download/jsprim-1.4.2.tgz#712c65533a15c878ba59e9ed5f0e26d5b77c5feb"
@@ -7322,6 +7443,11 @@ sort-keys@^1.0.0:
   dependencies:
     is-plain-obj "^1.0.0"
 
+sortablejs@1.10.2:
+  version "1.10.2"
+  resolved "http://registry.npm.xiaojukeji.com/sortablejs/download/sortablejs-1.10.2.tgz#6e40364d913f98b85a14f6678f92b5c1221f5290"
+  integrity sha1-bkA2TZE/mLhaFPZnj5K1wSIfUpA=
+
 source-list-map@^2.0.0:
   version "2.0.1"
   resolved "https://registry.nlark.com/source-list-map/download/source-list-map-2.0.1.tgz#3993bd873bfc48479cca9ea3a547835c7c154b34"
@@ -7838,6 +7964,11 @@ tslib@^1.9.0:
   resolved "https://registry.nlark.com/tslib/download/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha1-zy04vcNKE0vK8QkcQfZhni9nLQA=
 
+tslib@^2.1.0:
+  version "2.3.1"
+  resolved "http://registry.npm.xiaojukeji.com/tslib/download/tslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
+  integrity sha1-6KM1rdXOrlGqJh0ypJAVjvBC7wE=
+
 tty-browserify@0.0.0:
   version "0.0.0"
   resolved "https://registry.nlark.com/tty-browserify/download/tty-browserify-0.0.0.tgz#a157ba402da24e9bf957f9aa69d524eed42901a6"
@@ -7907,6 +8038,11 @@ unbox-primitive@^1.0.1:
     has-bigints "^1.0.1"
     has-symbols "^1.0.2"
     which-boxed-primitive "^1.0.2"
+
+underscore@^1.9.1:
+  version "1.13.2"
+  resolved "http://registry.npm.xiaojukeji.com/underscore/download/underscore-1.13.2.tgz#276cea1e8b9722a8dbed0100a407dda572125881"
+  integrity sha1-J2zqHouXIqjb7QEApAfdpXISWIE=
 
 unicode-canonical-property-names-ecmascript@^2.0.0:
   version "2.0.0"
@@ -8203,10 +8339,26 @@ vue@^2.6.11:
   resolved "https://registry.npmmirror.com/vue/download/vue-2.6.14.tgz#e51aa5250250d569a3fbad3a8a5a687d6036e235"
   integrity sha512-x2284lgYvjOMj3Za7kqzRcUSxBboHqtgRE2zlos1qWaOye5yUmHn42LB1250NJBLRwEcdrB0JRwyPTEPhfQjiQ==
 
+vuedraggable@2.24.3:
+  version "2.24.3"
+  resolved "http://registry.npm.xiaojukeji.com/vuedraggable/download/vuedraggable-2.24.3.tgz#43c93849b746a24ce503e123d5b259c701ba0d19"
+  integrity sha1-Q8k4SbdGokzlA+Ej1bJZxwG6DRk=
+  dependencies:
+    sortablejs "1.10.2"
+
 vuex@^3.4.0:
   version "3.6.2"
   resolved "http://registry.npm.xiaojukeji.com/vuex/download/vuex-3.6.2.tgz#236bc086a870c3ae79946f107f16de59d5895e71"
   integrity sha1-I2vAhqhww655lG8QfxbeWdWJXnE=
+
+wangeditor@^4.6.0:
+  version "4.7.10"
+  resolved "http://registry.npm.xiaojukeji.com/wangeditor/download/wangeditor-4.7.10.tgz#2b9ca3a476d992ec711dbc8335a42b93b2f99fc8"
+  integrity sha1-K5yjpHbZkuxxHbyDNaQrk7L5n8g=
+  dependencies:
+    "@babel/runtime" "^7.11.2"
+    "@babel/runtime-corejs3" "^7.11.2"
+    tslib "^2.1.0"
 
 watchpack-chokidar2@^2.0.1:
   version "2.0.1"

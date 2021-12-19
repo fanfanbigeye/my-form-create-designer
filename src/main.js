@@ -2,9 +2,12 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router/index'
 import store from './store/index'
-console.log('-main.js-', router)
+
+import FcDesigner from '../fcDesigner/index'
+Vue.component('FcDesigner', FcDesigner)
 
 Vue.config.productionTip = false
+
 
 new Vue({
   router,
