@@ -3,9 +3,15 @@ import App from './App.vue'
 import router from './router/index'
 import store from './store/index'
 
+import ELEMENT from "element-ui";
+import "element-ui/lib/theme-chalk/index.css";
+import formCreate from "@form-create/element-ui";
 import FcDesigner from '../fcDesigner/index'
 Vue.component('FcDesigner', FcDesigner)
 
+
+Vue.use(ELEMENT);
+Vue.use(formCreate);
 Vue.config.productionTip = false
 
 
