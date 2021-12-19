@@ -1,5 +1,7 @@
 # my-form-create-designer
 
+VUE2  + router + store + element ui + form-create-degingner (ui) 项目学习
+
 ## Project setup
 ```
 yarn install
